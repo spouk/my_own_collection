@@ -1,0 +1,4 @@
+---
+# defaults file for makefile
+path: /tmp/testfile.log
+content: "test content string for testfile"
