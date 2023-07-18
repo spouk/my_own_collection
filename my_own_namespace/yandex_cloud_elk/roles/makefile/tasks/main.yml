@@ -1,12 +1,8 @@
 ---
-# tasks file for makefile
-- name: test my new module
-  hosts: localhost
-  tasks:
   - name: run test module
     my_own_module:
-      path: {{ path }}
-      content: {{ content }}
+      path: '{{ path }}'
+      content: '{{ content }}'
     register: result
   - name: show result
     debug:
